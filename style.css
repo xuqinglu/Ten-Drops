@@ -1,0 +1,86 @@
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+body {
+
+}
+#cvs{
+    margin-top: 50px;
+    margin-left: 600px;
+}
+.title{
+    width: 600px;
+    height: 100px;
+    line-height: 100px;
+    margin-left: 600px;
+    font-size: 40px;
+    text-align: center;
+    font-size: 40px;
+    color: #2e6da4;
+}
+.title #leftDrop {
+    position: relative;
+    color: #5f646e;
+    font-size: 60px;
+}
+#restartBtn {
+    width: 120px;
+    height: 35px;
+    line-height: 35px;
+    text-align: center;
+    font-size: 18px;
+    margin-left: 830px;
+    margin-top: 50px;
+    border-radius: 20px;
+    color: black;
+    background-color: gold;
+    cursor: pointer;
+}
+#level {
+    position: absolute;
+    margin-top: 20px;
+    margin-left: 600px;
+    width: 100px;
+    height: 30px;
+    line-height: 30px;
+    font-size: 20px;
+    border: 1px solid #000;
+    text-align: center;
+    color: #2e6da4;
+}
+#best {
+    position: absolute;
+    margin-top: 30px;
+    margin-left: 1100px;
+    width: 150px;
+    height: 80px;
+}
+#startGame{
+    width: 100%;
+    height: 100%;
+    left: 0;
+    top: 0;
+    background:rgba(0,0,0,0.85);
+    text-align: center;
+    font-size: 40px;
+    color: white;
+}
+#startGame p {
+    margin-top: 50px;
+}
+#startGameImg{
+    display: block;
+    width: 500px;
+    height: 500px;
+    margin: 100px auto;
+}
+#startGameImg1 {
+    width: 200px;
+    height: 200px;
+    margin-top: -450px ;
+    margin-left:-100px;
+    position: absolute;
+
+}

@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body onload="gameStart()">
+    <p id="level">Level 1</p>
+    <p id="best"><strong>BEST:</strong> Level <span id="bestLevel">1</span></p>
+    <h1 class="title">
+    <span id="leftDrop">TEN</span>
+     DROP
+    </h1>
+    <canvas id="cvs"></canvas>
+    <p id="restartBtn">RESTART</p>
+
+    <dialog id="startGame" open>
+        <p>点击水滴开始游戏</p>
+        <img  id="startGameImg" src="img/background.jpg" alt="">
+        <img  id="startGameImg1" src="img/drop.png" alt="">
+    </dialog>
+
+    <script src="main.js"></script>
+</body>
+</html>
